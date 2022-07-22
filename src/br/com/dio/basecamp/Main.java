@@ -1,4 +1,4 @@
-package br.com.dio.calcdois;
+package br.com.dio.basecamp;
 
 // Classe para usar os métodos criados e executar o exercício:
 public class Main {
@@ -10,5 +10,9 @@ public class Main {
         Calcdois.sub(9, 1.8);
         Calcdois.mult(7, 8);
         Calcdois.div(5, 2.5);
+
+        //Mensagem
+        System.out.println("Exercício Mensagem: ");
+        Mensagem.hora(18);
     }
 }
